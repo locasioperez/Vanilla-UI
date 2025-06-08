@@ -107,6 +107,7 @@ section {
 }
 body {
   line-height: 1;
+  height: 100vh;
 }
 ol,
 ul {
@@ -129,48 +130,149 @@ table {
 }
 
 #main-header {
-  height: 60px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  width: 100%;
 }
 
 #main-nav {
   display: flex;
   justify-content: space-around;
   text-align: center;
+  align-items: center;
   width: 100%;
+  height: 50px;
 }
 
 #nav-link-home-box {
-  width: 100%;
+  width: 50px;
 }
 
 #nav-link-home {
   text-decoration: none;
   color: black;
-  font-family: 'Istok Web', sans-serif;
+  font-family: 'Fascinate Inline', system-ui;
   font-style: normal;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
-#nav-link-about-box {
-  width: 100%;
+#nav-link-plans-box {
+  width: 50px;
 }
 
-#nav-link-about {
+#nav-link-plans {
   text-decoration: none;
   color: black;
-  font-family: 'Istok Web', sans-serif;
+  font-family: 'Fascinate Inline', system-ui;
   font-style: normal;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
 #nav-link-contact-box {
-  width: 100%;
+  width: 50px;
 }
 
 #nav-link-contact {
   text-decoration: none;
   color: black;
-  font-family: 'Istok Web', sans-serif;
+  font-family: 'Fascinate Inline', system-ui;
   font-style: normal;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+#card {
+  height: 300px;
+  width: 250px;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+#main-home-section {
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#main-home-box-1 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Istok Web', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+}
+#generated-woman-photo {
+  width: 215px;
+  height: 215px;
+  border-radius: 50%;
+}
+
+#main-home-box-2 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Istok Web', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+#main-login-wrpper {
+  display: flex;
+  justify-content: space-around;
+  width: 225px;
+}
+
+#main-login-box {
+  text-align: center;
+}
+
+#main-login-link {
+  text-decoration: none;
+  color: black;
+  font-family: 'Fascinate Inline', system-ui;
+  border-bottom: 1.5px solid black;
+  font-size: 1.15rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#main-signup-box {
+  text-align: center;
+}
+
+#main-signup-link {
+  text-decoration: none;
+  color: black;
+  font-family: 'Fascinate Inline', system-ui;
+  border-bottom: 1.5px solid black;
+  font-size: 1.15rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* sections */
+#main-home-section {
+  border-bottom: 1px solid black;
+}
+
+/* footer */
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: 'Istok Web', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 0.75rem;
 }
