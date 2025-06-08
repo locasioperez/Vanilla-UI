@@ -1,0 +1,5 @@
+{
+  "workspace.preview_append_paths" : false,
+  "workspace.preview_server_port" : 3003,
+  "workspace.preview_url" : "localhost:3003"
+}
